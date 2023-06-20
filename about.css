@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+mark{
+	background: yellow;
+	color: blue;
+	padding: 1px 10px;
+}
+
+.sec1{
+	margin-top: 30px;
+	padding-top: 20px;
+}
+.sec1 h1{
+	color: #2F8FB3;
+	text-shadow: 3px 3px 3px gray, -3px -3px 3px white;
+	
+}
+
+
+.sec1 p{
+	text-align: justify;
+	margin-top: 25px;
+	color: gray;
+	font-size: 20px;
+}
+.sec1 img{
+	padding-right: 120px;
+	
+}
+
+.mission{
+	margin-top: -20px;
+	margin-left: 50px;
+	text-align: justify;
+}
+#missionImg{
+	margin-top: -30px;
+	transition: 4s;
+}
+#missionImg:hover{
+	transform: translateY(20px);
+}
+#impact{
+	text-align: justify;
+
+}
+.card{
+	padding: 10px 10px 0 10px;
+	transition: 5s;
+}
+.card:hover{
+	transform: translateY(-15px);
+}
+#impact i{
+	left: 50%;
+	font-size: 50px;
+	border-radius: 50%;
+	border: 1px solid ;
+	padding: 15px 20px;
+	margin-left: 110px;
+	margin-bottom: 10px;
+}
